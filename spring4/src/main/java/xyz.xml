@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    
+    
+    <!-- byName and byTYpe they are two type choose the injection class                    -->
+    <bean class = "com.service.car" autowire = "byType">
+    
+          <!-- <constructor-arg ref = "petrol"></constructor-arg> 
+           
+           <property name="Engine" ref = "disel" ></property> -->
+           
+           
+    
+    </bean>
+    
+    
+    
+    <!-- id name start only small letter  -->
+    <bean id = "disel" class = "com.service.dieselEngine" primary = "true" ></bean>
+    <bean id = "petrol" class = "com.service.petrolEngine"> </bean>
+    
+    
+    
+    
+    
+    
+
+</beans>
