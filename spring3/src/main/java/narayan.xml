@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here comment in XML file-->
+    
+   
+    
+    <!--
+    
+    <bean id = 'c1' class = "com.narayan.car" scope ='prototype'> </bean>
+    <bean id = 'c2' class = "com.narayan.car" scope ='prototype'> </bean>
+    <bean id = 'c3' class = "com.narayan.car" scope ='prototype'> </bean>
+    
+    
+    <bean id = 'p1' class = "com.narayan.PetrolEngine"> </bean>
+    <bean id = 'p2' class = "com.narayan.PetrolEngine"> </bean>
+    <bean id = 'p3' class = "com.narayan.PetrolEngine"> </bean>
+    
+    -->
+    
+    
+    <bean id = 's1' class = "com.narayan.Student" > 
+    
+          <property name="id" value = "101"></property>
+          <property name="name" value = "priya"></property>
+          <property name="Address" value = "pune"></property>
+          
+          <property name="subjects">
+            <array>
+                  <value>java</value>
+                  <value>python</value>
+                  <value>c</value>
+                  <value>c++</value>
+                  <value>springboot</value>
+                  <value>cpp</value>
+            </array>
+          </property>
+    
+    </bean>
+    
+    
+    <bean id = 's2' class = "com.narayan.Student" > 
+    
+          <property name="id" value = "102"></property>
+          <property name="name" value = "vaishu"></property>
+          <property name="Address" value = "Rashin"></property>
+          <property name="subjects">
+            <array>
+                  <value>java</value>
+                  <value>python</value>
+                  <value>c</value>
+                  <value>c++</value>
+                  <value>springboot</value>
+                  <value>cpp</value>
+                  </array>
+                  </property>
+    
+    </bean>
+    
+    
+    <bean id = 's3' class = "com.narayan.Student" > 
+    
+          <property name="id" value = "103"></property>
+          <property name="name" value = "sakhu"></property>
+          <property name="Address" value = "ambegaon"></property>
+          <property name="subjects">
+            <array>
+                  <value>java</value>
+                  <value>python</value>
+                  <value>c</value>
+                  <value>c++</value>
+                  <value>springboot</value>
+                  <value>cpp</value>
+                  </array>
+                  </property>
+    
+    </bean>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</beans>
