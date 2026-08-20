@@ -14,23 +14,17 @@ public class Student {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	
-	private String Name;
+	private String name;
 	
 	@Column(unique = true)
 	private String email;
 	
-	private String Address;
-	
-	private String Qulification;
-	
-	private String Gender;
-	
-	private String Course;
-	
-	private String Timing;
-	
-	private String MobNo;
+	private String address;
+	private String qulification;
+	private String gender;
+	private String course;
+	private String timing;
+	private String mobNo;
 	
 	
 
