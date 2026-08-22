@@ -25,6 +25,7 @@ public class Student {
 	private String course;
 	private String timing;
 	private String mobNo;
+	private String courseDuration;
 	
 	
 
